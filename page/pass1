@@ -1,0 +1,16 @@
+<?php
+$server='localhost';
+$user='root';
+$password='';
+$database='';
+
+$con =mysqli_connect($server,$user,$password,$database);
+
+if(!$con){
+die("not connected");
+}
+else{
+    echo "connected";
+}
+
+?>
